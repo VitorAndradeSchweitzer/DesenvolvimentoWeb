@@ -89,7 +89,21 @@ export default function Profile() {
       <div className={styles.aboutMe}><p>{formData.about}</p></div>
 
       <form onSubmit={handleSubmit} className={styles.form}>
-        {[['Nome completo', 'fullName'], ['Sobre mim', 'about'], ['CPF', 'cpf'], ['Data de nascimento', 'dataNascimento'], ['Telefone', 'telefone'],
+        {isEditing && (
+          <div className={styles.field}>
+            <label>Nome completo</label>
+            <input name="fullName" value={formData.fullName} onChange={handleChange} />
+          </div>
+        )}
+
+         {isEditing && (
+          <div className={styles.field}>
+            <label>Sobre mim</label>
+            <textarea name="about" value={formData.about} onChange={handleChange} />
+          </div>
+        )}
+          <br></br>
+          {[['CPF', 'cpf'], ['Data de nascimento', 'dataNascimento'], ['Telefone', 'telefone'],
           ['Cidade', 'cidade'], ['Estado', 'estado'], ['País', 'pais'], ['Equipamento', 'equipamento']]
           .map(([label, name]) => (
             <div key={name} className={styles.field}>
@@ -100,7 +114,8 @@ export default function Profile() {
                 <p>{formData[name]}</p>
               )}
             </div>
-          ))}
+        ))}
+
 
         <div className={styles.field}>
           <label>Especialidades</label>

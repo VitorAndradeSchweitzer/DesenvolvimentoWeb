@@ -101,3 +101,18 @@ input:focus {
   width: 100%;
   max-width: none;
 }
+
+.profileName {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  color: #c3a150;
+}
+
+.aboutMe {
+  font-size: 1rem;
+  margin: 0.5rem 0 2rem 0;
+  color: #444;
+  white-space: pre-line;
+}
+
