@@ -6,11 +6,9 @@ Vitor Andrade Schweitzer         24100913
 
 O trabalho prático (PW) será montado como um espaço digital onde fotógrafos possam divulgar seus trabalhos, exibir especificações técnicas de suas fotos, interagir com outros usuários e explorar novas imagens. A plataforma permitirá o compartilhamento de fotografias em alta qualidade, organizadas em perfis personalizados. Além disso, contará com mecanismos de interação, produção de álbuns colaborativos, e outras funcionalidades que incentivam a troca de experiências entre os usuários.
 
-# Links importantes
-
+# Links importantes:
 - Repositório GitHub:
   https://github.com/VitorAndradeSchweitzer/DesenvolvimentoWeb.git
-
 - Aplicação hospedada (24/7):
   https://desenvolvimento-web-sable.vercel.app/
 
