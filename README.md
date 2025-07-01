@@ -1,17 +1,23 @@
 Integrantes: 
-Reni Rogete Rosa Ferreira Júnior 24104772
-Gabriel Pessi Buchweitz          24102978
-Tito Luiz Pereira                24100918
-Vitor Andrade Schweitzer         24100913
-
-O trabalho prático (PW) será montado como um espaço digital onde fotógrafos possam divulgar seus trabalhos, exibir especificações técnicas de suas fotos, interagir com outros usuários e explorar novas imagens. A plataforma permitirá o compartilhamento de fotografias em alta qualidade, organizadas em perfis personalizados. Além disso, contará com mecanismos de interação, produção de álbuns colaborativos, e outras funcionalidades que incentivam a troca de experiências entre os usuários.
+- Reni Rogete Rosa Ferreira Júnior 24104772
+- Gabriel Pessi Buchweitz          24102978
+- Tito Luiz Pereira                24100918
+- Vitor Andrade Schweitzer         24100913
+  
+O trabalho prático (PW) será montado como um espaço digital chamado "Revela – Rede Social para Fotógrafos" onde fotógrafos possam divulgar seus trabalhos, interagir com outros usuários e explorar novas imagens. A plataforma permitirá o compartilhamento de fotografias em alta qualidade, que podem ser vista em um feed de postagens. 
 
 # Links importantes:
 	- Repositório GitHub:
 	  https://github.com/VitorAndradeSchweitzer/DesenvolvimentoWeb.git
+   
 	- Aplicação hospedada (24/7):
 	  https://desenvolvimento-web-sable.vercel.app/
 
+# Tecnologias Utilizadas:
+	- Front-end: React, Vite, CSS Modules
+	- Back-end: Django, Django REST Framework
+	- Banco de Dados: PostgreSql
+	- Hospedagem: Vercel (front-end)
 
 Requisitos de Aplicação WEB:
 # Cadastro, autenticação de usuários e atualização:
